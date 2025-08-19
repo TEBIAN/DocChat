@@ -39,9 +39,7 @@ pip install -r requirements.txt
 
 ## 🔑 Requirements  
 
-- Python 3.8+  
-- OpenAI API key (for default embeddings/LLM)  
-- Alternatively, use HuggingFace embeddings (no API needed)  
+- Python 3.8+   
 - Ollama (for local LLM support)+ nomic-embed-text:latest and llama2:latest
 
 ## 🏃‍♂️ Running the App  
