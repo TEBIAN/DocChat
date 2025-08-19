@@ -2,8 +2,6 @@
 
 **DocChat** is a powerful document-based Q&A application built with **LangChain** and **Streamlit**. Upload your documents (PDF, Word, HTML) and chat with them using AI-powered natural language processing.  
 
-![Demo](https://github.com/TEBIAN/DocChat.git)
-
 ## 🚀 Features  
 
 ✅ **Multi-Document Support** - Process PDFs, Word docs, and HTML files  
@@ -11,7 +9,7 @@
 ✅ **Local AI** - Processing using Ollama with llama2  
 ✅ **Clean UI** - Intuitive Streamlit interface with chat history  
 ✅ **Efficient Processing** - Chunking and vector embeddings for fast retrieval 
-✅ Vector search for fast document retrieval 
+✅ **Vector search** - fast document retrieval 
 
 ## ⚙️ Installation  
 
