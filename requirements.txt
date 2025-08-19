@@ -1,0 +1,14 @@
+streamlit 
+langchain 
+openai 
+tiktoken 
+chromadb 
+pypdf 
+python-docx 
+docx2txt
+html2text 
+sentence-transformers
+langchain_ollama
+langchain-community
+faiss-cpu
+unstructured
