@@ -1,8 +1,8 @@
-# 📄 DocChat - Chat with Your Documents  
+#  DocChat - Chat with Your Documents  
 
 **DocChat** is a powerful document-based Q&A application built with **LangChain** and **Streamlit**. Upload your documents (PDF, Word, HTML) and chat with them using AI-powered natural language processing.  
 
-## 🚀 Features  
+##  Features  
 
 ✅ **Multi-Document Support** - Process PDFs, Word docs, and HTML files  
 ✅ **Conversational Memory** - Maintains chat history for context-aware responses  
@@ -11,7 +11,7 @@
 ✅ **Efficient Processing** - Chunking and vector embeddings for fast retrieval 
 ✅ **Vector search** - fast document retrieval 
 
-## ⚙️ Installation  
+## Installation  
 
 1. **Clone the repository**  
 ```bash
@@ -37,12 +37,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🔑 Requirements  
+##  Requirements  
 
 - Python 3.8+   
 - Ollama (for local LLM support)+ nomic-embed-text:latest and llama2:latest
 
-## 🏃‍♂️ Running the App  
+##  Running the App  
 
 ```bash
 streamlit run docchat.py
@@ -50,7 +50,7 @@ streamlit run docchat.py
 
 The app will open in your browser at `http://localhost:8501`.  
 
-## 🛠️ Configuration  
+##  Configuration  
 
 Customize settings via the sidebar:  
 - **OpenAI API Key**: Required for default LLM/embeddings or use local ollama  
@@ -58,7 +58,7 @@ Customize settings via the sidebar:
 - **Chunk Size**: Adjust document processing size (500-2000 chars)  
 - **Temperature**: Control response creativity (0.0-1.0)  
 
-## 📂 Supported File Formats  
+##  Supported File Formats  
 
 | Format | Loader |  
 |--------|--------|  
@@ -68,7 +68,7 @@ Customize settings via the sidebar:
 
 *(More formats can be added via LangChain's document loaders)*  
 
-## 🧠 How It Works  
+##  How It Works  
 
 1. **Document Processing**  
    - Files are split into optimized chunks  
@@ -80,7 +80,7 @@ Customize settings via the sidebar:
    - LLM generates answers using retrieved context  
    - Conversation history maintained for follow-up questions  
 
-## 🌟 Advanced Features  
+##  Advanced Features  
 
 ```python
 # Example: Adding PowerPoint support
@@ -89,7 +89,7 @@ from langchain.document_loaders import UnstructuredPowerPointLoader
 loaders['.pptx'] = UnstructuredPowerPointLoader
 ```
 
-## 🚀 Deployment Options  
+##  Deployment Options  
 
 1. **Streamlit Sharing**  
    [![Deploy](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io/cloud)  
@@ -103,11 +103,11 @@ docker run -p 8501:8501 docchat
 3. **AWS/GCP**  
    - Package with Docker and deploy to ECS/Cloud Run  
 
-## 📜 License  
+##  License  
 
 MIT License - See [LICENSE](LICENSE)  
 
-## 🙋‍♂️ Support & Contribution  
+##  Support & Contribution  
 
 Found a bug? Want a new feature?  
 - [Open an issue](https://github.com/TEBIAN/DocChat.git/issues)  
